@@ -20,7 +20,7 @@ This application contains the APIs for the following features:
 
 #### This application is hosted on :
 
-#### You can find the frontend repository on: https://github.com/aaaaayushh/link-shortener-frontend
+#### You can find the frontend repository on: https://github.com/aaaaayushh/link-shorten-frontend
 
 #### Run locally
 
