@@ -18,7 +18,7 @@ This application contains the APIs for the following features:
 - Auto delete files after a set amount of time which can be fixed for unauthenticated users, and configurable for authenticated users.
 - Protect against cross-site scripting (XSS) and cross-site request forgery (CSRF) attacks. I have not implemented these protections before, and would have liked to explore how it is done in a production setting.
 
-#### This application is hosted on :
+#### This application is hosted on : https://link-shorten-frontend.vercel.app/
 
 #### You can find the frontend repository on: https://github.com/aaaaayushh/link-shorten-frontend
 
