@@ -12,7 +12,11 @@ const app = express();
 const port = 3001;
 
 const upload = multer({ dest: "uploads/" }); // Destination folder for uploaded files
-app.use(cors());
+app.use(
+  cors({
+    origin: "*",
+  })
+);
 
 // Set up AWS S3 and Bitly clients
 const s3 = new AWS.S3({
