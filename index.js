@@ -16,8 +16,8 @@ app.use(cors());
 
 // Set up AWS S3 and Bitly clients
 const s3 = new AWS.S3({
-  accessKeyId: "AKIA4OFRRUOAIX5NBUF5",
-  secretAccessKey: "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",
+  accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+  secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
 });
 
 const bitly = new BitlyClient("064492e0828a4f8d94dbcffe6ed97e609067912c", {});
